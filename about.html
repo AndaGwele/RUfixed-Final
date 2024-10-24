@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About | RUfixed</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+        <link rel="stylesheet" href="CSS/about.css">
+        <link rel="stylesheet" href="CSS/index.css">
+        <script src="JS/script.js"></script>
+        <link rel="icon" type="image/x-icon" href="images/rufixedlogo.png">
+    </head>
+    <body>
+        <div id="loader" class="loader"></div>
+        <header class="Header">
+            <p class="toCenter"><a href="index.html"><img src="images/rufixedlogo.png" style="width: 80px; height:71px; padding-bottom: 1px;"></a></p>
+            <div class="page-links">
+                <div class="links"><a href="index.html">Home</a></div>
+                <div class="links"><a href="about.html"class="active">About</a></div>
+                <div class="links"><a href="contact.html">Contact Us</a></div>
+                
+            </div>
+            <div class="hamburger">
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                  <i class="fas fa-bars"></i>
+                </label>
+                <div class="nav-mobile">
+                  <a href="index.html">Home</a>
+                  <a href="about.html">About</a>
+                  <a href="contact.html">Contact Us</a>
+                  <a href="log in/login.php">Login</a>
+                </div>
+            </div>
+            <button class="log-in" onclick="window.location.href='log in/login.php'">Login</button>
+        </header>
+        
+        <section class="banner">
+            <h1 id="bannerHead">Log Your Tickets Now!</h1>
+        </section>
+
+        <section>
+            <div class="OverView">
+                <h1 class="Heading">Overview</h1>
+                <hr>
+                <p id="text1">RUFixed is an integrated software solution
+                    designed to streamline the process of logging, tracking, and
+                    resolving faults reported by students. It serves as a
+                    centralized platform where students can report issues
+                    related to their academic or campus environment, and
+                    administrators can efficiently manage and resolve these
+                    issues. The system ensures that faults are addressed in a
+                    timely manner, enhances communication between students and
+                    support staff, and maintains transparency throughout the
+                    resolution process.
+                </p>
+            </div>
+
+            <section class="How">
+                <h1>Ticket LifeLine</h1>
+                <div class="spacer"></div>
+                <div class="lifeline">
+                    <div class="column">
+                        <div class="steps">
+                            <span class="material-symbols-outlined">folder_open</span>
+                            <h1>Opened</h1>
+                        </div>
+                        <div class="steps">
+                            <span class="material-symbols-outlined">check</span>
+                            <h1>Confirmed</h1>
+                        </div>
+                        <div class="steps">
+                            <span class="material-symbols-outlined">pending_actions</span>
+                            <h1>Requisitioned</h1>
+                        </div>
+                        <div class="steps">
+                            <span class="material-symbols-outlined">done_all</span>
+                            <h1>Resolved</h1>
+                        </div>
+                        <div class="steps">
+                            <span class="material-symbols-outlined">drive_file_move</span>
+                            <h1>Closed</h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <article class="Features">
+                <h1 class="Heading">Key Features</h1>
+                <br>
+                <figure class="featurette">
+                    <div class="featurette-image">
+                        <img id = "Image1" src="images/UserFriendly.png">
+                    </div>
+                    <figcaption class="featurette-content">
+                        <h1 class="featurette-heading">User Friendly Interface</h1>
+                        <p>The Student Portal offers an intuitive dashboard
+                            where students can easily log faults, track the
+                            status of their requests, and view historical
+                            records. The interface is designed for ease of use,
+                            with clear instructions and prompts to guide
+                            students through the reporting process efficiently.
+                            On the Administrator side, the dashboard provides a
+                            comprehensive control panel for managing fault
+                            requests. Administrators can view incoming reports,
+                            assign them to relevant personnel, and track their
+                            progress. The system also includes tools for
+                            filtering and prioritizing requests based on urgency
+                            and type, ensuring efficient task management and
+                            reporting capabilities.</p>
+                    </figcaption>
+                </figure>
+                <figure class="featurette">
+                    <figcaption class="featurette-content">
+                        <h1 class="featurette-heading">Logging and Tracking</h1>
+                        <p>Fault logging and tracking in the system allows
+                            students to submit requests by filling out a form
+                            with details such as the type of fault, description,
+                            location, and urgency level. Optional attachments
+                            like photos or documents can be added for additional
+                            context. Once submitted, each fault request is
+                            assigned a unique ticket number for tracking, with
+                            students receiving a confirmation email containing
+                            the ticket number and a link to monitor the status.
+                            The system provides real-time status updates,
+                            showing stages like "Received," "In Progress,"
+                            "Pending Review," and "Resolved."</p>
+                    </figcaption>
+                    <div  class="featurette-image">
+                        <img id = "Image1" src="images/tracking.jpg">
+                    </div>
+
+                </figure>
+
+                <figure class="featurette">
+                    <div  class="featurette-image">
+                        <img id = "Image1" src="images/FAULT MANAGEMENT.jpg"
+                            alt="Fault management">
+                    </div>
+                    <figcaption class="featurette-content">
+                        <h1 class="featurette-heading">Efficient Fault Management</h1>
+                        <p>Efficient fault management is facilitated by the
+                            ability of administrators to assign requests to the
+                            appropriate support staff or departments based on
+                            the nature of the issue. Requests can be prioritized
+                            by urgency, ensuring that critical problems are
+                            addressed promptly. The system also includes
+                            integrated messaging and notification features,
+                            enabling seamless communication between students and
+                            support staff. Automated notifications keep students
+                            informed of status changes, while support staff can
+                            request additional information or provide updates
+                            directly through the platform.</p>
+                    </figcaption>
+                </figure>
+                <figure class="featurette">
+                    <figcaption class="featurette-content">
+                        <h1 class="featurette-heading">Resolution and Feedback</h1>
+                        <p>
+                            After a fault is resolved, support staff document
+                            the resolution process and the actions taken, which
+                            are logged in the system for future reference. Both
+                            administrators and students have access to this
+                            information. Once the issue is closed, students are
+                            encouraged to provide feedback on their experience,
+                            helping to identify areas for improvement and
+                            maintain the quality of support provided.
+                        </p>
+                    </figcaption>
+                    <div  class="featurette-image">
+                        <img id = "Image1" src="images/feedback.jpeg" alt="feedback">
+                    </div>
+                </figure>
+                <figure class="featurette">
+                    <div  class="featurette-image">
+                        <img id = "Image1" src="images/reporting.png"
+                            alt="Reporting and analytics">
+                    </div>
+                    <figcaption class="featurette-content">
+                        <h1 class="featurette-heading">Reporting and Analytics</h1>
+                        <p>The system offers robust reporting and analytics
+                            features, generating detailed reports on fault
+                            resolution performance. These reports include key
+                            metrics such as average resolution time, common
+                            fault types, and departmental response rates. Data
+                            visualization tools, like interactive charts and
+                            graphs, provide insights into fault trends and staff
+                            performance, helping administrators make informed
+                            decisions to enhance system efficiency.</p>
+
+                    </figcaption>
+                </figure>
+                <figure class="featurette">
+                    <figcaption class="featurette-content">
+                        <h1 class="featurette-heading">Security and Data Privacy</h1>
+                        <p>The system ensures security and data privacy through
+                            robust user authentication, allowing only authorized
+                            users to access the platform. Both students and
+                            support staff are granted role-based access with
+                            permissions suited to their specific roles. In
+                            addition, the system complies with data protection
+                            regulations, ensuring that all personal and
+                            fault-related information is securely stored and
+                            used strictly for its intended purpose.</p>
+                    </figcaption>
+                
+                <div class="featurette-image">
+                    <img id = "Image1" src="images/private.jpg" alt="Protection">
+                </div>
+            </figure>
+            </article>
+
+        </section>
+
+        <section class="footer">
+            <footer><!-- Footer Section -->
+                <div class="footer-container">
+                    <div class="footer-buttons">
+                        <a href="#" class="footer-btn"><i class="fas fa-copyright"></i> Copyright 2024 Rufixed</a>
+                        <a href="contact.html" class="footer-btn"><i class="fas fa-envelope"></i> Contact Us</a>
+                        <a href="about.html" class="footer-btn"><i class="fas fa-info-circle"></i> About Us</a>
+                        <a href="Privacy/privacy.html" class="footer-btn"><i class="fas fa-shield-alt"></i> Privacy Policy</a>
+                        <a href="tandc.html" class="footer-btn"><i class="fas fa-question-circle"></i> T&C's</a>                       
+                        <a href="FAQ/faq.html" class="footer-btn"><i class="fa-solid fa-book"></i> FAQ</a>                       
+                        <div class="footer-dropdown">
+                            <a href="#" class="footer-btn dropdown-btn">RUecosystems</a>
+                            <div class="dropdown-content">
+                                <a href="https://ross.ru.ac.za/">ROSS</a>
+                                <a href="https://ruconnected.ru.ac.za/login/index2.php">RuConnected</a>
+                                <a href="https://www.ru.ac.za/library/">RUlibrary</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        </body>
+    </html>
